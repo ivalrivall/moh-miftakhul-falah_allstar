@@ -3,14 +3,14 @@
 | ------ | ------ |
 | laman cms backend | [cms-article-backend](https://github.com/ivalrivall/cms-article-backend) |
 | laman cms ui | [cms-article-ui2](https://github.com/ivalrivall/cms-article-ui2) |
-| laman portal | [laman-portal](https://github.com/ivalrivall/laman-portal) |
+| laman portal | [laman-portal](https://github.com/ivalrivall/laman-portal2) |
 | jawaban written test | [google-docs](https://docs.google.com/document/d/1GN5DCdxWsCNqHJZ8pAgGt2pwDA9ig5NFKSGijVvZG2A/edit?usp=sharing) |
 
 ## requirement
-- nodejs (v14.17.3)
-- npm (v6.4.13)
+- nodejs (lts / gallium)
+- npm (v8.11.0)
 - php (v7.4.24)
-- composer (v2.0.11)
+- composer (v2.3.9)
 - postgresql/mysql database
 
 ## petunjuk instalasi laman cms backend
@@ -49,7 +49,7 @@ cp .env.example .env
 npm install
 npm run dev
 ```
-- buka localhost:3000 di browser
+- buka localhost:8081 di browser
 
 ## petunjuk instalasi laman portal ui
 - jalankan command ini pada terminal
@@ -57,4 +57,4 @@ npm run dev
 npm install
 npm run serve
 ```
-- buka localhost:8080 di browser
+- buka localhost:3002 di browser
