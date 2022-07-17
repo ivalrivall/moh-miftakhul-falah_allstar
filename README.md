@@ -3,7 +3,7 @@
 | ------ | ------ |
 | laman cms backend | [cms-article-backend](https://github.com/ivalrivall/cms-article-backend) |
 | laman cms ui | [cms-article-ui2](https://github.com/ivalrivall/cms-article-ui2) |
-| laman portal | [laman-portal](https://github.com/ivalrivall/laman-portal2) |
+| laman portal | [laman-portal2](https://github.com/ivalrivall/laman-portal2) |
 | jawaban written test | [google-docs](https://docs.google.com/document/d/1GN5DCdxWsCNqHJZ8pAgGt2pwDA9ig5NFKSGijVvZG2A/edit?usp=sharing) |
 
 ## requirement
