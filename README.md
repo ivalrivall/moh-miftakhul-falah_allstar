@@ -130,6 +130,10 @@ yarn install
 yarn serve
 ```
 - buka localhost:80xx di browser (port bisa saja 8081/8082/8083, dan seterusnya)
+- login dengan akun berikut jika ingin default:
+- username: admin
+- password: admin1234
+- jika ingin mendaftar cek email konfirmasi pada mailtrap.io
 
 ## petunjuk instalasi laman portal ui
 - jalankan command ini pada terminal
