@@ -91,8 +91,6 @@ MAIL_PASSWORD=xxxxxxx
 MAIL_ENCRYPTION=tls
 ```
 
-## setup code untuk membuat
-
 ## petunjuk instalasi laman cms backend
 - buat database sql dengan nama cms
 - jalankan command ini pada terminal
