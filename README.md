@@ -61,12 +61,37 @@ server {
     access_log /var/log/nginx/laravel_access.log;
 }
 ```
+
+## setup laradock
+- clone laradock pada lokasi seperti url berikut https://laradock.io/getting-started/#B
+- masuk ke repo laradock yang telah di clone dan checkout ke branch v12.1
+- run "docker compose up -d nginx postgresql workspace" pada terminal
+- (optional #1) run "docker compose exec workspace bash"
+- (optional #2) run "chmod -R 777 nama folder repo untuk "cms backend"
+
 ## ubah config host
-- udbah /etc/hosts dengan nano command
+- ubah /etc/hosts dengan nano command
 - lalu tambahkan cmsbackend.test di samping 127.0.0.1. contoh:
 ```bash
 127.0.0.1   cmdbackend.test
 ```
+
+## setup mailtrap.io
+- login ke mailtrap.io dan tambahkan inbox
+- click judul inbox yang sudah dibuat, cari confignya pada tab SMTP Settings
+- pilih laravel 7+ pada value integration dropdown
+- copy setup .env yang didapat dari mailtrap.io  dan paste pada .env pada repo cms-article-backend
+- berikut adalah contoh setup yang didapat dari mailtrap.io
+```bash
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=xxxx
+MAIL_PASSWORD=xxxxxxx
+MAIL_ENCRYPTION=tls
+```
+
+## setup code untuk membuat
 
 ## petunjuk instalasi laman cms backend
 - buat database sql dengan nama cms
