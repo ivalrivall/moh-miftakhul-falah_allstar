@@ -123,6 +123,8 @@ php artisan test --testsuite=Feature --stop-on-failure
 ```
 
 ## petunjuk instalasi laman cms ui
+- clone repo cms-article-ui2
+- pindah ke branch main
 - jalankan command ini pada terminal
 ```bash
 cp .env.example .env
@@ -136,6 +138,8 @@ yarn serve
 - jika ingin mendaftar cek email konfirmasi pada mailtrap.io
 
 ## petunjuk instalasi laman portal ui
+- clone repo laman-portal2
+- pindah ke branch main
 - jalankan command ini pada terminal
 ```bash
 yarn install
