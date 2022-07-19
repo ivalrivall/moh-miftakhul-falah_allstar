@@ -49,7 +49,7 @@ cp .env.example .env
 yarn install
 yarn serve
 ```
-- buka localhost:8081 di browser
+- buka localhost:80xx di browser (port bisa saja 8081/8082/8083, dan seterusnya)
 
 ## petunjuk instalasi laman portal ui
 - jalankan command ini pada terminal
@@ -57,4 +57,4 @@ yarn serve
 yarn install
 yarn dev
 ```
-- buka localhost:300xx di browser (port bisa saja 3001/3002/3003, dan seterusnya)
+- buka localhost:30xx di browser (port bisa saja 3001/3002/3003, dan seterusnya)
