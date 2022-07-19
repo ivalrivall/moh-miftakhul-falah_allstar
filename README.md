@@ -46,15 +46,15 @@ php artisan test --testsuite=Feature --stop-on-failure
 - jalankan command ini pada terminal
 ```bash
 cp .env.example .env
-npm install
-npm run dev
+yarn install
+yarn serve
 ```
 - buka localhost:8081 di browser
 
 ## petunjuk instalasi laman portal ui
 - jalankan command ini pada terminal
 ```bash
-npm install
-npm run serve
+yarn install
+yarn dev
 ```
-- buka localhost:3002 di browser
+- buka localhost:300xx di browser (port bisa saja 3001/3002/3003, dan seterusnya)
